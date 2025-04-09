@@ -1,0 +1,51 @@
+# Python Bytecode files
+_pycache_/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# FastAPI specific
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# VSCode und andere IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Python distribution packages
+dist/
+build/
+*.egg-info/
+
+# Coverage directory used by tools like pytest-cov
+.coverage
+.coverage.*
+nosetests.xml
+pytest-debug.log
+
+# PyCharm specific
+.idea/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Docker
+*.dockerignore
+
+# Python environment
+pip-log.txt
+pip-delete-this-directory.txt
